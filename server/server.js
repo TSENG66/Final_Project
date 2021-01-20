@@ -1,5 +1,5 @@
 import express from 'express'
-import cors from 'cors'
+// import cors from 'cors'
 import routes from './routes'
 import mongoose from 'mongoose'
 
@@ -7,7 +7,7 @@ require('dotenv').config()
 const app = express()
 
 // init middleware
-app.use(cors())
+// app.use(cors())
 app.use(express.json())
 app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Origin', 'http://localhost:4000')
