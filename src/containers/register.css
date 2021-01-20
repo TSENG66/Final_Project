@@ -1,0 +1,80 @@
+.body{
+  height: 100%;
+  background-color: tomato;
+  height: 100vh;
+  padding: 10vh;
+}
+.title{
+  font-size: 50px;
+  color: black;
+  margin-top: 0em;
+}
+.Login-title {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Reg {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 700px;
+  width: 800px;
+  border-radius: 3%;
+  margin: auto;
+}
+.reg_but button{
+  margin-top: 20px;
+  display: inline;
+  background-color: #00EC00;
+  font-family: cursive：Comic Sans MS;
+  color: aliceblue;
+  width: 320px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 0.3em;
+}
+.reg_but button:hover{
+  background-color: #009100;
+}
+.info{
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 150px;
+  max-width: 500px;
+}
+.name{
+  display: inline;
+  
+}
+
+.goback {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #7B7B7B;
+}
+.goback button{
+  border: none;
+  text-decoration: underline;
+  background-color: transparent;
+  cursor: pointer;
+}
+.goback button:hover{
+  color: palevioletred;
+}
+
+
+#doc_r {
+  background: url('../images/doctor.png');
+  background-size: cover;
+}
+
+#man_r {
+  background: url('../images/manager.png');
+  background-size: cover;
+}

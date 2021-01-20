@@ -1,0 +1,91 @@
+.body{
+  height: 100%;
+  font-family: Poppins-Regular, sans-serif;
+  background-color: tomato;
+  height: 100vh;
+  padding: 10vh;
+}
+.Login {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 700px;
+  width: 600px;
+  border-radius: 3%;
+  margin: auto;
+}
+
+.Login-title {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-title Button{
+  border-color: red;
+  border-radius: 5%;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-top: -1em;
+  height: 250px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.title {
+  margin-top: 25px;
+  color: chartreuse;
+  font-size: 50px;
+  font-family: cursive;
+
+}
+
+
+
+.Login_Button {
+  margin-top: 20px;
+  display: inline;
+  background: gray;
+  font-family: cursive：Comic Sans MS;
+  color: aliceblue;
+  width: 320px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 0.3em;
+  
+}
+.Login_Button:hover {
+  background-color: #4A4AFF;
+  color: yellow;
+}
+
+.signup {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #7B7B7B;
+}
+.signup button{
+  border: none;
+  text-decoration: underline;
+  background-color: transparent;
+  cursor: pointer;
+}
+.signup button:hover{
+  color: palevioletred;
+}
+
+#doc {
+  background: url('../images/doctor.png');
+  background-size: cover;
+}
+
+#man {
+  background: url('../images/manager.png');
+  background-size: cover;
+}
